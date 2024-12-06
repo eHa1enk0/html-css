@@ -1,0 +1,60 @@
+body {
+    background-color: #a11f25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+}
+
+.container {
+    border: 5px double;
+    text-align: center;
+    margin: auto;
+    width: 600px;
+    height: 900px;
+    position: absolute;
+}
+
+.invisible {
+    font-family: "FuturaLTPaneuropeanLight", sans-serif;
+    padding-top: 15px;
+    letter-spacing: 26px;
+    height: 70px;
+    margin-left: 28px;
+    font-size: 73px;
+    color: white;
+
+}
+
+.monsters {
+    font-family: "FuturaLTPaneuropeanBold", sans-serif;
+    font-size: 89px;
+}
+
+.eyes {
+    padding-right: 300px;
+    padding-top: 70px;
+}
+
+.Mouth {
+    padding-top: 100px;
+
+}
+
+.palahniuk {
+    font-family: "FuturaLTPaneuropeanBold", sans-serif;
+    font-size: 68px;
+    padding-top: 140px;
+}
+
+
+@font-face {
+    font-family: "FuturaLTPaneuropeanLight";
+    src: url("fonts/futuraLTPaneuropeanLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "FuturaLTPaneuropeanBold";
+    src: url("fonts/futuraLTPaneuropeanBold.ttf") format("truetype");
+}
