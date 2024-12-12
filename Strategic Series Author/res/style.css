@@ -1,0 +1,66 @@
+body {
+    background-color: #32a8a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+    width: 600px;
+    height: 900px;
+    position: absolute;
+}
+
+
+.top-text {
+    font-family: "Room";
+    background-color: #000000;
+    font-size: 22px;
+    width: 400px;
+    margin-top: 25px;
+    margin-left: 100px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.main-text {
+    font-family: "BaroPlain";
+    padding-top: 26px;
+    font-size: 95px;
+    line-height: 100px;
+    color: white;
+}
+
+.main2-text {
+    font-family: "Room1";
+    font-size: 25px;
+    padding: 2%;
+    font-weight: bold;
+}
+
+.bot-text {
+    font-family: "Room1";
+    color: white;
+    font-size: 37px;
+    letter-spacing: 8px;
+}
+
+
+@font-face {
+    font-family: "BaroPlain";
+    src: url("fonts/Baro-Plain-BF63d9dc58bd122.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Room";
+    src: url("fonts/Room-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Room1";
+    src: url("fonts/Room.ttf") format("truetype");
+}

@@ -8,7 +8,6 @@ body {
 }
 
 .container {
-    border: 5px double;
     text-align: center;
     margin: auto;
     width: 600px;
